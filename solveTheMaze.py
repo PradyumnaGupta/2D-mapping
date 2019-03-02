@@ -7,7 +7,7 @@ and writes a file ('Solution.txt')
 class botStatus:
     '''
     status = information of position and direction(the bot is facing)
-    at once only one of head or pos can be altered. 
+    at once only one of head or pos can be altered.  
 
     '''
     def __init__(self, pos, head):  
