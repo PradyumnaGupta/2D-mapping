@@ -19,7 +19,7 @@ while(WiFi.status()!=WL_CONNECTED){
   digitalWrite(D4,HIGH);
 }
 digitalWrite(D4,HIGH);
-Serial.println(" ");
+Serial.println("  ");
 Serial.println("WiFi Connected");
 server.begin();
 Serial.println("Server started");
